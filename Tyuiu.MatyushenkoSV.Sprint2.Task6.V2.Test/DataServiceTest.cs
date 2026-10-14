@@ -12,10 +12,10 @@ namespace Tyuiu.MatyushenkoSV.Sprint2.Task6.V2.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Зима", ds.FindMonthSeason(1));
-            Assert.AreEqual("Весна", ds.FindMonthSeason(4));
-            Assert.AreEqual("Лето", ds.FindMonthSeason(7));
-            Assert.AreEqual("Осень", ds.FindMonthSeason(10));
+            Assert.AreEqual("зима", ds.FindMonthSeason(1));
+            Assert.AreEqual("весна", ds.FindMonthSeason(4));
+            Assert.AreEqual("лето", ds.FindMonthSeason(7));
+            Assert.AreEqual("осень", ds.FindMonthSeason(10));
         }
     }
 }
