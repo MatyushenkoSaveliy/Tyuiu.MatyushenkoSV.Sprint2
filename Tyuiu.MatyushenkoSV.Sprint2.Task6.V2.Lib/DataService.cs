@@ -5,12 +5,8 @@ namespace Tyuiu.MatyushenkoSV.Sprint2.Task6.V2.Lib
 {
     public class DataService : ISprint2Task6V2
     {
-        public string FindMonthSeason(int value)
-        {
-            throw new NotImplementedException();
-        }
 
-        public string FindSeasonName(int value)
+        public string FindMonthSeason(int value)
         {
             return value switch
             {

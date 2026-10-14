@@ -40,7 +40,7 @@ namespace Tyuiu.MatyushenkoSV.Sprint2.Task6.V2
             }
             else
             {
-                res = "Пора года: " + ds.FindSeasonName(numMonth);
+                res = "Пора года: " + ds.FindMonthSeason(numMonth);
             }
 
             Console.WriteLine(res);

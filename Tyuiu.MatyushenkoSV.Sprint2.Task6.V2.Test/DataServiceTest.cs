@@ -8,14 +8,14 @@ namespace Tyuiu.MatyushenkoSV.Sprint2.Task6.V2.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidFindSeasonName()
+        public void ValidFindMonthSeason()
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Зима", ds.FindSeasonName(1));
-            Assert.AreEqual("Весна", ds.FindSeasonName(4));
-            Assert.AreEqual("Лето", ds.FindSeasonName(7));
-            Assert.AreEqual("Осень", ds.FindSeasonName(10));
+            Assert.AreEqual("Зима", ds.FindMonthSeason(1));
+            Assert.AreEqual("Весна", ds.FindMonthSeason(4));
+            Assert.AreEqual("Лето", ds.FindMonthSeason(7));
+            Assert.AreEqual("Осень", ds.FindMonthSeason(10));
         }
     }
 }
