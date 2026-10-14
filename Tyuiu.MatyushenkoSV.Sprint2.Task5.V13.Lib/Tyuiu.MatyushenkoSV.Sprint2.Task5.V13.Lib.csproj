@@ -1,15 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<AssemblyName>Tyuiu.MatyushenkoSV.Sprint2.Task5.V13.Lib</AssemblyName>
+		<RootNamespace>Tyuiu.MatyushenkoSV.Sprint2.Task5.V13.Lib</RootNamespace>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\DLL\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="tyuiu.cources.programming.interfaces">
+			<HintPath>..\..\tyuiu.cources.programming.interfaces.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 
 </Project>
