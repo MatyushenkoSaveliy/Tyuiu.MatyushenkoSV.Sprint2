@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Task 4/">
+    <Project Path="Tyuiu.MatyushenkoSV.Sprint2.Task4.V1.Lib/Tyuiu.MatyushenkoSV.Sprint2.Task4.V1.Lib.csproj" />
+    <Project Path="Tyuiu.MatyushenkoSV.Sprint2.Task4.V1.Test/Tyuiu.MatyushenkoSV.Sprint2.Task4.V1.Test.csproj" />
+    <Project Path="Tyuiu.MatyushenkoSV.Sprint2.Task4.V1/Tyuiu.MatyushenkoSV.Sprint2.Task4.V1.csproj" />
+  </Folder>
   <Folder Name="/Task0/">
     <Project Path="Tyuiu.MatyushenkoSV.Sprint2.Task0.V15.Lib/Tyuiu.MatyushenkoSV.Sprint2.Task0.V15.Lib.csproj" />
     <Project Path="Tyuiu.MatyushenkoSV.Sprint2.Task0.V15.Test/Tyuiu.MatyushenkoSV.Sprint2.Task0.V15.Test.csproj" />
